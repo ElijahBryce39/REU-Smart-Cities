@@ -1,0 +1,13 @@
+# environment.yml
+name: sdr-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - numpy
+      - matplotlib
+      - scipy
+      - pyrtlsdr
+      - pyadi-iio
