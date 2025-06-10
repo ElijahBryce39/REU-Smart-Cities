@@ -1,8 +1,30 @@
+# V2V project
+
 Repository for designing a single transceiver with a software defined radio (SDR) that handles radar, LiDAR, GPS, and V2V communications.
 
 We are using Adalm-Pluto SDR. 
 
 Google docs [link](https://docs.google.com/document/d/1pcrVIo0RQJuGwDCi-xMBNvkVarRPVy1aNbBDQT-anN0/edit?pli=1&tab=t.0#heading=h.rqtnr59anzwo)
+
+## Links & goals
+For simulating github repos:
+- [gps](https://github.com/osqzss/gps-sdr-sim) 
+- [radar](https://github.com/kit-cel/gr-radar) 
+- [can](https://github.com/hardbyte/python-can) 
+- [lidar](https://github.com/szenergy/awesome-lidar) 
+
+ETSI C-ITS protocol suite 
+- [vanetza](https://github.com/riebl/vanetza)  
+- [gr-ieee802-11](https://github.com/bastibl/gr-ieee802-11 )
+
+
+Project direction:
+	Gather data from radar, LiDAR, GPS and CAN from the car. 
+	Create a mock based on data format. 
+	Design transceiver SDR that receives the signals correctly & efficiently. 
+
+	Later plug in the car’s real information.
+
 
 ```
 v2v_sdr_project/
