@@ -2,7 +2,7 @@ import adi
 import numpy as np
 import time
 
-sdr = adi.Pluto("ip:192.168.2.1")
+sdr = adi.Pluto("usb:2.7.5")
 sdr.sample_rate = int(2.5e6)
 sdr.tx_rf_bandwidth = int(2e6)
 sdr.tx_lo = int(915e6)
