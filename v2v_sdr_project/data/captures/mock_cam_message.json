@@ -1,0 +1,11 @@
+{
+  "type": "CAM",
+  "source": "vehicle-001",
+  "payload": {
+    "timestamp": "2025-06-10T17:29:32.040608Z",
+    "latitude": 52.52020684180157,
+    "longitude": 13.404506265317613,
+    "speed": 18.15,
+    "heading": 251.27
+  }
+}
