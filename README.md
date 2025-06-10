@@ -1,4 +1,11 @@
-vehicle-sdr-project/
+Repository for designing a single transceiver with a software defined radio (SDR) that handles radar, LiDAR, GPS, and V2V communications.
+
+We are using Adalm-Pluto SDR. 
+
+Google docs [link](https://docs.google.com/document/d/1pcrVIo0RQJuGwDCi-xMBNvkVarRPVy1aNbBDQT-anN0/edit?pli=1&tab=t.0#heading=h.rqtnr59anzwo)
+
+```
+v2v_sdr_project/
 │
 ├── simulation/                         # Simulated sensor data generators
 │   ├── radar/                          # Radar simulation using gr-radar
@@ -44,3 +51,4 @@ vehicle-sdr-project/
 │
 ├── README.md
 └── setup.sh                            # Master install/setup script
+```
